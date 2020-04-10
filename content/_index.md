@@ -74,7 +74,7 @@ sections:
     bg: gray
 menu:
   main:
-    name: Home
+    name: Was wir anbieten
     weight: 1
 layout: landing
 ---
