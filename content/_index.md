@@ -74,7 +74,7 @@ sections:
     bg: gray
 menu:
   main:
-    name: Was wir anbieten
+    name: Was wir für sie tun können
     weight: 1
 layout: landing
 ---
