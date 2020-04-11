@@ -1,5 +1,5 @@
 ---
-title: Was wir anbieten
+title: Was wir für sie tun können
 sections:
   - type: section_hero
     section_id: hero
