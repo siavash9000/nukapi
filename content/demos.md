@@ -34,7 +34,7 @@ sections:
         url: "#"
 menu:
   main:
-    name: Wer wir sind
+    name: Demos
     weight: 3
 layout: landing
 ---
