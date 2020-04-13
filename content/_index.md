@@ -7,7 +7,7 @@ sections:
     content: Private Cloud mit Schlüsselübergabe oder managed. Cloud, Multi-Cloud
       oder eigene Hardware? Maßgeschneiderte Lösungen für ihr Unternehmen, bei
       denen sie die vollständige Hoheit über ihre Daten und Dienste behalten.
-    image: images/hero.png
+    image: /images/dev.png
     actions:
       - label: Learn More
         url: /features
