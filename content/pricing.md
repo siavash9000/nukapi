@@ -66,7 +66,7 @@ sections:
 menu:
   main:
     name: Softwareentwicklung
-    weight: 3
+    weight: 2
   secondary:
     name: ""
 layout: landing
