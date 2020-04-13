@@ -35,6 +35,6 @@ sections:
 menu:
   main:
     name: Wer wir sind
-    weight: 3
+    weight: 4
 layout: landing
 ---
