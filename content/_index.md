@@ -4,11 +4,10 @@ sections:
   - type: section_hero
     section_id: hero
     title: private Cloud? Kein Problem
-    content: Ihr privates Kubernetes Setup mit Schlüsselübergabe zum selber
-      betreiben oder von uns für sie betrieben und überwacht. Das ganze
-      (Multi-)Cloud oder auf ihrer eigenen dedizierten Hardware. Oder beides im
-      Mischbetrieb. Maßgeschneiderte Lösungen für ihr Unternehmen, bei denen sie
-      die vollständige Hoheit über ihre Daten und Dienste behalten.
+    content: Sie wollen ihr eigenes Kubernetes Cluster betreiben? In einer oder
+      sogar mehrerer Clouds? Aber mit zusätzlicher dedizierter Hardware um die
+      Kosten niedrig zu halten? Ohne sich von einem einzelnen Anbieter abhängig
+      zu machen? Wir können ihnen helfen.
     image: /images/dev.png
     actions:
       - label: Learn More
