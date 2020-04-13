@@ -4,7 +4,7 @@ params:
   palette: blue
   header:
     title: nukapi
-    logo_img: /images/untitled.png
+    logo_img: /images/nukapi_logo_small.png
     has_nav: true
     menu:
       actions:
@@ -16,7 +16,7 @@ params:
     has_subscribe: true
     social_title: Community
     tagline: SaaS theme by Stackbit
-    logo_img: /images/untitled.png
+    logo_img: /images/nukapi_logo_small.png
     has_social: true
     content: "&copy; Stackbit. All rights reserved."
     links:
