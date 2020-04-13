@@ -3,13 +3,9 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: moderne DevOps Infrastruktur auf eigener Hardware oder in der Cloud
-    content: Wir entwerfen und implementieren ein privates Openshift Cluster auf
-      ihrer eigenen Hardware oder in virtuellen Maschinen in einer Cloud ihrer
-      Wahl oder verteilt auf mehrere um ein unabhängiges und robustes Cluster zu
-      betreiben. Nach der "Schlüsselübergabe" ihres Clusters sind wir weiterhin
-      für sie da um ihr Cluster auf den neuesten Stand zu halten oder ihnen mit
-      Schulungen tiefe Einblicke in ihr Setup zu geben.
+    title: private Cloud? Kein Preoblem
+    content: Private Cloud mit Schlüsselübergabe oder managed. Cloud, Multi-Cloud
+      oder eigene Hardware? Maßgeschneiderte Lösungen für ihr Unternehmen.
     image: images/hero.png
     actions:
       - label: Learn More
