@@ -1,5 +1,5 @@
 ---
-title: Features
+title: Demos
 sections:
   - type: section_content
     section_id: features
@@ -17,25 +17,24 @@ sections:
       * Phasellus ut enim non lorem venenatis rutrum.
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
+      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor sed justo tempor condimentum.
     image: images/feature1.png
     bg: gray
     actions:
       - label: Free Trial
         url: /signup
       - label: View Demo
-        url: '#'
+        url: "#"
   - type: section_cta
     section_id: call-to-action
     title: This Is Call to Action Block!
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: '#'
+        url: "#"
 menu:
   main:
-    name: Features
+    name: Demos
     weight: 2
 layout: landing
 ---
