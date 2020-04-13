@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: private Cloud? Kein Problem
+    title: private Cloud? <br> Kein Problem
     content: Private Cloud mit Schlüsselübergabe oder managed. Cloud, Multi-Cloud
       oder eigene Hardware? Maßgeschneiderte Lösungen für ihr Unternehmen, bei
       denen sie die vollständige Hoheit über ihre Daten und Dienste behalten.
