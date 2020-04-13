@@ -74,7 +74,7 @@ sections:
     bg: gray
 menu:
   main:
-    name: Was wir für sie tun können
+    name: ""
     weight: 1
 layout: landing
 ---
