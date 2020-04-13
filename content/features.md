@@ -1,5 +1,5 @@
 ---
-title: Demos
+title: Infrastruktur
 sections:
   - type: section_content
     section_id: features
@@ -34,7 +34,7 @@ sections:
         url: "#"
 menu:
   main:
-    name: Demos
+    name: Infrastruktur
     weight: 2
 layout: landing
 ---
