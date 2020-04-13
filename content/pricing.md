@@ -1,5 +1,5 @@
 ---
-title: Dienstleistungen
+title: Softwareentwicklung
 sections:
   - type: section_pricing
     section_id: pricing
@@ -65,7 +65,7 @@ sections:
           velit, in consequat nisl feugiat nec.
 menu:
   main:
-    name: Dienstleistungen
+    name: Softwareentwicklung
     weight: 3
   secondary:
     name: ""
