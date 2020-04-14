@@ -1,0 +1,30 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  creationTimestamp: '2018-11-16T11:02:42Z'
+  name: landingpage-build
+  namespace: nukapi
+  resourceVersion: '11170900'
+  selfLink: /apis/build.openshift.io/v1/namespaces/nukapi/buildconfigs/landingpage-build
+  uid: 2391bbf2-e98f-11e8-a9c5-e2b2f959dc35
+spec:
+  nodeSelector: null
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'landingpage:latest'
+  postCommit: {}
+  resources: {}
+  runPolicy: Serial
+  source:
+    git:
+      uri: 'https://gitlab.com/nukapi.com/landingpage.git'
+    type: Git
+  strategy:
+    dockerStrategy:
+      from:
+        kind: DockerImage
+        name: 'nginx:1.13-alpine'
+    type: Docker
+
+
