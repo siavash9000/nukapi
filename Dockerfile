@@ -11,6 +11,7 @@ ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINA
 RUN tar xzf ./${HUGO_BINARY}.tar.gz
 
 RUN ./hugo
+RUN chown -R 1001 /website/public
 COPY oc_conf/nginx.conf /opt/bitnami/nginx/conf/nginx.conf:ro
 USER 1001
 
