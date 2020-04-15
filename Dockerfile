@@ -1,18 +1,10 @@
-FROM bitnami/nginx:1.16.1
-
+FROM nukapi/nginx-hugo:latest
 WORKDIR /website
 ADD . /website
-
-ENV HUGO_VERSION 0.69.0
-ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_linux-64bit
-ENV NGINX_HTTP_PORT_NUMBER=8081
-
 USER 0
-ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY}.tar.gz .
-RUN tar xzf ./${HUGO_BINARY}.tar.gz
-
-RUN ./hugo
+RUN /hugo/hugo
+COPY oc_conf/nginx.conf /opt/bitnami/nginx/conf/nginx.conf
 RUN chown -R 1001 /website/public
-COPY oc_conf/nginx.conf /opt/bitnami/nginx/conf/nginx.conf:ro
+RUN chown -R 1001 /opt/bitnami/nginx
 USER 1001
 
