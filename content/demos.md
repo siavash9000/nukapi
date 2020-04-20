@@ -1,13 +1,11 @@
 ---
 title: Demos
 sections:
-  - type: section_content
+  - type: section_famousfaces
     section_id: Demos
-    title: Demos
+    title: LiveDemos
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Wenn sie mal was ausprobieren wollen.
 
 
       * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -34,7 +32,7 @@ sections:
         url: "#"
 menu:
   main:
-    name: Demos
+    name: LiveDemos
     weight: 3
 layout: landing
 ---

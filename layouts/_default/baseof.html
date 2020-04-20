@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
-    <head>    
-        
+    <head>
+
         <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet">
         <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}">
-        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">
     </head>
     <body>
-        
+
         <div id="page" class="site palette-{{ .Site.Params.palette }}">
           {{ partial "header.html" . }}
           <main id="content" class="site-content">
@@ -20,8 +20,12 @@
           {{ partial "footer.html" . }}
         </div><!-- .site -->
         <!-- Scripts -->
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossOrigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossOrigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossOrigin></script>
+
         <script src="{{ "assets/js/plugins.js" | relURL }}"></script>
         <script src="{{ "assets/js/init.js" | relURL }}"></script>
         <script src="{{ "assets/js/main.js" | relURL }}"></script>
-    </body> 
+    </body>
 </html>
