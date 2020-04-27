@@ -5,6 +5,9 @@ module.exports = {
     entry: {
       famousfaces: './public/assets/js/famousfaces.js'
     },
+    output: {
+        path: path.resolve(__dirname, 'dist/assets')
+    },
     module: {
         rules: [
             {
