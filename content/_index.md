@@ -1,47 +1,34 @@
 ---
-title: Home
+title: Was wir machen
 sections:
   - type: section_hero
     section_id: hero
-    title: private Cloud? Kein Problem
-    content: Sie wollen ihr eigenes Kubernetes Cluster betreiben? In einer oder
-      sogar mehrerer Clouds? Aber mit zusätzlicher dedizierter Hardware um die
-      Kosten niedrig zu halten? Ohne sich von einem einzelnen Anbieter abhängig
-      zu machen? Wir können ihnen helfen.
-    image: /images/dev.png
-    actions:
-      - label: Learn More
-        url: /features
+    title: Wir entwickeln Software
   - type: section_features
-    section_id: features
-    title: Features
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
-      metus quis lorem malesuada luctus.
+    section_id: intro
     bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
-        content: Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+      - title: die ihr Problem löst
+        content: "Ein Berg voll Daten, den sie verstehen wollen? Ein Geschäftsmodell, das sie digitalisieren wollen? 
+        Eine Applikation die in die Cloud migiriert werden soll? 
+        Wir entwickeln maßgeschneiderte Lösungen mit ihnen von A bis Z."
         image: images/feature1.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Awesome Feature of Your Services
-        content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+      - title: die automatisiert läuft
+        content: "Wir denken den Betrieb von Vornherein mit. Continous Deployment, DevOps und Analytics? 
+        Kein Problem, oder?"
         image: images/feature2.png
         actions:
-          - label: Learn More
+          - label: Link zu Db Demo
             url: /features
-      - title: Cool Feature of Your Services
-        content: In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+      - title: in agiler Weise
+        content: "Ihre Anforderungen ändern sich mit der Zeit? Ist doch klar. Wir gehen von Veränderung aus. Deswegen 
+        arbeiten wir mit ihnen iterativer Art um kontinuerlich Wert zu schaffen und Risiken zu minimieren."
+        image: images/feature2.png
+      - title: die Spass macht
+        content: "Neues zu lernen macht Spass. Deswegen macht uns offene Open-Source Software besonders Spass. Damit kann jeder lernen und etwas neues kreieren."
         image: images/feature3.png
         actions:
-          - label: Learn More
+          - label: Link zu famousfaces
             url: /features
   - type: section_reviews
     section_id: reviews
@@ -63,20 +50,13 @@ sections:
         avatar: images/review3.jpg
         content: Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: section_cta
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
   - type: section_posts
     section_id: recent-posts
     title: Latest Posts
     bg: gray
 menu:
   main:
-    name: ""
+    name: Was wir machen
     weight: 1
 layout: landing
 ---
