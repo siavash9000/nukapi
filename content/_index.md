@@ -13,9 +13,8 @@ sections:
         Eine Applikation die in die Cloud migiriert werden soll? 
         Wir entwickeln maßgeschneiderte Lösungen mit ihnen von A bis Z."
         image: images/feature1.png
-      - title: die automatisiert läuft
-        content: "Wir denken den Betrieb von Vornherein mit. Continous Deployment, DevOps und Analytics? 
-        Kein Problem, oder?"
+      - title: die auf der Höhe der Zeit ist
+        content: "Continous Deployment, DevOps und Data Analytics? Kein Problem, oder?"
         image: images/feature2.png
         actions:
           - label: Link zu Db Demo
@@ -25,7 +24,7 @@ sections:
         arbeiten wir mit ihnen iterativer Art um kontinuerlich Wert zu schaffen und Risiken zu minimieren."
         image: images/feature2.png
       - title: die Spass macht
-        content: "Neues zu lernen macht Spass. Deswegen macht uns offene Open-Source Software besonders Spass. Damit kann jeder lernen und etwas neues kreieren."
+        content: "Wir lieben Software, die einfach und schön ist. Manchmal bringt sie einen sogar zum Lachen"
         image: images/feature3.png
         actions:
           - label: Link zu famousfaces
