@@ -30,6 +30,6 @@
   "scripts": {
     "start": "hugo --watch & webpack-dev-server --hot --open --mode development && fg ",
     "build": "hugo && webpack --mode production",
-    "copy": "cp -f dist/demos/index.html public/demos/index.html && cp -f dist/famousfaces.js public/assets/js/famousfaces.js"
+    "copy": "cp -f dist/public/demos/index.html public/demos/index.html && cp -f dist/famousfaces.js public/assets/js/famousfaces.js"
   }
 }
