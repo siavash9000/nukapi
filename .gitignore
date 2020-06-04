@@ -2,3 +2,5 @@
 resources
 node_modules
 /public/
+/dist/
+/build

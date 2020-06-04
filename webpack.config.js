@@ -1,12 +1,14 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
+
 module.exports = {
     entry: {
       famousfaces: './public/assets/js/famousfaces.js'
     },
     output: {
-        publicPath: "/assets/js"
+        path: path.resolve(__dirname, "./dist/assets/js/"),
+        filename: 'famousfaces.js'
     },
     module: {
         rules: [
@@ -47,12 +49,12 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./public/demos/index.html",
-            filename: "./public/demos/index.html"
+            template: path.resolve(__dirname, "public/demos/index.html"),
+            filename: path.resolve(__dirname, "dist/demos/index.html"),
         })
     ],
     devServer: {
-        contentBase: path.join(__dirname, 'public'),
+        contentBase: path.join(__dirname, 'dist'),
         compress: true,
         port: 9000
     }
