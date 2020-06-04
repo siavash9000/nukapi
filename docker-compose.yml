@@ -3,7 +3,4 @@ services:
   web:
     build: .
     ports:
-      - "80:9000"
-    volumes:
-      - .:/website
-    command: sh -c "npm run hugo-watch & npm run webpack-watch & npm run webpack-dev-server"
+      - "80:8081"
