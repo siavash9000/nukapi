@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-      famousfaces: './public/assets/js/famousfaces.js'
+      famousfaces: './dist/assets/js/famousfaces.js'
     },
     output: {
         path: path.resolve(__dirname, "./dist/assets/js/"),
@@ -49,7 +49,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: path.resolve(__dirname, "public/demos/index.html"),
+            template: path.resolve(__dirname, "dist/demos/index.html"),
             filename: path.resolve(__dirname, "dist/demos/index.html"),
         })
     ],
