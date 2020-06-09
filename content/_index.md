@@ -3,29 +3,25 @@ title: Was wir machen
 sections:
   - type: section_hero
     section_id: hero
-    title: Wir entwickeln Software
+    title: Wir entwickeln Software...
   - type: section_features
     section_id: intro
     bg: gray
     featureslist:
-      - title: die ihr Problem löst
+      - title: ...die ihr Problem löst!
         content: "Ein Berg voll Daten, den sie verstehen wollen? Ein Geschäftsmodell, das sie digitalisieren wollen? 
         Eine Applikation die in die Cloud migiriert werden soll? 
         Wir entwickeln maßgeschneiderte Lösungen mit ihnen von A bis Z."
-        image: images/feature1.png
-      - title: die auf der Höhe der Zeit ist
-        content: "Continous Deployment, DevOps und Data Analytics? Kein Problem, oder?"
-        image: images/feature2.png
+        image: images/f1.png
+      - title:  ...auf agile und fortschrittliche Weise!
+        content: "Ihre Anforderungen ändern sich mit der Zeit? Ist doch klar. Wir gehen von Veränderung aus. Deswegen arbeiten wir mit ihnen iterativer Art um kontinuerlich Wert zu schaffen und Risiken zu minimieren. Continous Deployment, DevOps und Data Analytics? Kein Problem, oder?"
+        image: images/f2.png
         actions:
           - label: Link zu Db Demo
             url: /features
-      - title: in agiler Weise
-        content: "Ihre Anforderungen ändern sich mit der Zeit? Ist doch klar. Wir gehen von Veränderung aus. Deswegen 
-        arbeiten wir mit ihnen iterativer Art um kontinuerlich Wert zu schaffen und Risiken zu minimieren."
-        image: images/feature2.png
-      - title: die Spass macht
+      - title: ...die Spass macht!
         content: "Wir lieben Software, die einfach und schön ist. Manchmal bringt sie einen sogar zum Lachen"
-        image: images/feature3.png
+        image: images/f3.png
         actions:
           - label: Link zu famousfaces
             url: /features

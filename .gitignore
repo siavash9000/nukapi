@@ -2,3 +2,5 @@
 resources
 node_modules
 /public/
+hugo.exe
+nukapi.code-workspace
