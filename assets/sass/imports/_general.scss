@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  font-family: _font(primary);
   background: _palette(bg);
   color: _palette(primary);
   line-height: 1.66667;
@@ -37,6 +38,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: _font(primary);
   color: _palette(primary);
   font-weight: bold;
   line-height: 1.2;
