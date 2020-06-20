@@ -20,13 +20,15 @@
         </div><!-- .block-preview -->
         {{ end }}
         <div class="cell block-content">
-          <h3 class="block-title underline">{{ $feature.title }}</h3>
+          <h3 class="block-title">{{ $feature.title }}</h3>
           <div class="block-copy">
             {{ partial "markdownify-block" $feature.content }}
           </div>
           {{ if $feature.actions }}
+            <div class="action-button">
             {{ $include_dict := dict "actions" $feature.actions }}
             {{ partial "cta_buttons.html" $include_dict }}
+          </div>
           {{ end }}
         </div><!-- .block-content -->
       </div><!-- .grid -->

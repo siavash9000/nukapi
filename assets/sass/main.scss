@@ -1,34 +1,42 @@
 // Font.
 $font: (
-  primary: ("Nunito Sans",sans-serif)
+  body: (
+    'Open Sans',
+    sans-serif,
+  ),
+  header: (
+    'Montserrat',
+    sans-serif,
+  ),
 );
 
 // Palette.
 $palette: (
-  primary:           #1fa1fe,
-  secondary:           darken(#1fa1fe, 15%),
-  meta:                lighten(#1fa1fe, 20%),
-  border:              lighten(#1fa1fe, 58%),
-  bg:                #f7f9fb,
-  accent:            #FBBA05,
-  accent-alt:        #00c6ff,
-  accent-purple:     #b5267b,
+  primary: #1fa1fe,
+  secondary: darken(#1fa1fe, 15%),
+  meta: lighten(#1fa1fe, 20%),
+  border: lighten(#1fa1fe, 58%),
+  bg: #f7f9fb,
+  darkBg: #333,
+  accent: #2fb2ff,
+  accent-alt: #00c6ff,
+  accent-purple: #b5267b,
   accent-purple-alt: #632695,
-  accent-green:      #438945,
-  accent-green-alt:  #73bb75,
-  accent-orange:     #fe8c00,
-  accent-orange-alt: #f83600
+  accent-green: #438945,
+  accent-green-alt: #73bb75,
+  accent-yellow: #fbaf11,
+  accent-yellow-alt: #f83600,
 );
 
-@import "imports/functions";
+@import 'imports/functions';
 
-@import "imports/reset";
-@import "imports/general";
-@import "imports/icons";
-@import "imports/structure";
-@import "imports/header";
-@import "imports/posts";
-@import "imports/sections";
-@import "imports/footer";
-@import "imports/palettes";
-@import "imports/banner";
+@import 'imports/reset';
+@import 'imports/general';
+@import 'imports/icons';
+@import 'imports/structure';
+@import 'imports/header';
+@import 'imports/posts';
+@import 'imports/sections';
+@import 'imports/footer';
+@import 'imports/palettes';
+@import 'imports/banner';

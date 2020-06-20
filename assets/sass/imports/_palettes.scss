@@ -160,17 +160,17 @@
   }
 }
 
-.palette-orange {
+.palette-yellow {
   a {
     &:hover,
     &:focus {
-      border-color: _palette(accent-orange);
-      color: _palette(accent-orange);
+      border-color: _palette(accent-yellow);
+      color: _palette(accent-yellow);
     }
   }
 
   blockquote {
-    border-color: _palette(accent-orange);
+    border-color: _palette(accent-yellow);
   }
 
   button,
@@ -178,19 +178,19 @@
   input[type="button"],
   input[type="reset"],
   a.button {
-    background: _palette(accent-orange);
-    border-color: _palette(accent-orange);
+    background: _palette(accent-yellow);
+    border-color: _palette(accent-yellow);
     color: #fff;
   }
 
   .button.secondary {
     background: transparent;
-    color: _palette(accent-orange);
+    color: _palette(accent-yellow);
 
     &:hover,
     &:focus,
     &:active {
-      background: _palette(accent-orange);
+      background: _palette(accent-yellow);
       color: #fff;
     }
   }
@@ -203,28 +203,28 @@
 
   .underline {
     &:after {
-      border-color: _palette(accent-orange);
+      border-color: _palette(accent-yellow);
     }
   }
 
   .icon-plus {
-    background: _palette(accent-orange);
+    background: _palette(accent-yellow);
   }
 
   .review-text {
     &:before {
-      color: _palette(accent-orange);
+      color: _palette(accent-yellow);
     }
   }
 
   .plan {
     &.highlight {
       .plan-inside {
-        border-color: _palette(accent-orange);
+        border-color: _palette(accent-yellow);
       }
 
       .button {
-        background: _palette(accent-orange);
+        background: _palette(accent-yellow);
         color: #fff;
       }
     }
@@ -232,9 +232,9 @@
 
   .block {
     &.bg-accent {
-      background: _palette(accent-orange);
-      background: -webkit-linear-gradient(left,_palette(accent-orange), _palette(accent-orange-alt));
-      background: linear-gradient(to right,_palette(accent-orange), _palette(accent-orange-alt));
+      background: _palette(accent-yellow);
+      background: -webkit-linear-gradient(left,_palette(accent-yellow), _palette(accent-yellow-alt));
+      background: linear-gradient(to right,_palette(accent-yellow), _palette(accent-yellow-alt));
     }
   }
 }

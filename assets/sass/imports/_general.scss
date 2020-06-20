@@ -3,7 +3,7 @@
  * ----------------------------------------------------------------------------
  */
 html {
-  font-family: _font(primary);
+
   font-size: 112.5%;
   height: 100%;
   min-height: 100%;
@@ -12,6 +12,7 @@ html {
 body {
   background: _palette(bg);
   color: _palette(primary);
+  font-family: _font(body) !important;
   line-height: 1.66667;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +39,7 @@ h4,
 h5,
 h6 {
   color: _palette(primary);
-  font-weight: bold;
+  font-family: _font(header) !important;
   line-height: 1.2;
   margin: 2.5rem 0 0.83333rem;
   text-rendering: optimizeLegibility;
