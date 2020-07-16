@@ -29,7 +29,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "show":  "hugo -d dist && webpack --mode development && webpack-dev-server --host 0.0.0.0",
+    "show": "hugo -d dist && webpack --mode development && webpack-dev-server --host 0.0.0.0",
     "build": "hugo -d dist && webpack --mode production"
   }
 }
