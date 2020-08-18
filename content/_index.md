@@ -1,9 +1,12 @@
 ---
 title: Was wir machen
 sections:
+  - type: section_hero
+    section_id: hero
+    title: Wir entwickeln Software...
   - type: section_features
     section_id: intro
-    bg: white
+    bg: gray
     featureslist:
       - title: ...die ihr Problem löst!
         content: "Ein Berg voll Daten, den sie verstehen wollen? Ein Geschäftsmodell, das sie digitalisieren wollen? 

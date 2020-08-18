@@ -8,22 +8,24 @@ params:
     has_nav: true
     menu:
       actions:
-        - label: Sign Up
-          url: /signup
+        - label: Kontakt
+          url: /contact
   footer:
-    subscribe_title: Subscribe
-    subscribe_content: Stay up to date with our latest developments.
+    subscribe_title: Kontaktieren Sie uns.
+    subscribe_content: Wie können wir Ihnen helfen?
     has_subscribe: true
     social_title: Community
-    tagline: SaaS theme by Stackbit
+    # tagline: SaaS theme by Stackbit
     logo_img: /images/nukapi_logo_footer.png
-    has_social: true
-    content: "&copy; Stackbit. All rights reserved."
+    has_social: false
+    # content: "&copy; Stackbit. All rights reserved."
     links:
-      - text: Made with Stackbit
-        url: https://www.stackbit.com
-        new_window: true
-    nav_title: Company
+      - text: Impressum
+        url: /#
+      - text: Datenschutz
+        url: /#
+        new_window: false
+    nav_title: Navigation
     has_nav: true
 disableKinds:
   - RSS
