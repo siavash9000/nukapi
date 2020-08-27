@@ -50,7 +50,7 @@
 .text-block,
 .block-item {
   .cell {
-    text-align: center;
+    text-align: justify-all;
   }
 
   .underline:after {
@@ -69,7 +69,7 @@
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
-      margin: 0 -0.83333rem 8rem;
+      margin: 20 -0.83333rem 8rem;
     }
 
     .cell {
