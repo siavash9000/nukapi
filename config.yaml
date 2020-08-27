@@ -1,5 +1,4 @@
-title: nukapi - Software und Service
-baseURL: /
+title: nukapi
 params:
   palette: blue
   header:

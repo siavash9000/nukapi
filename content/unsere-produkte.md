@@ -1,5 +1,5 @@
 ---
-title: Demos
+title: Produkte
 sections:
   - type: section_famousfaces
     section_id: Demos
@@ -14,7 +14,7 @@ sections:
         url: "#"
 menu:
   main:
-    name: LiveDemos
+    name: Unsere Produkte
     weight: 3
 layout: landing
 ---

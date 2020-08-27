@@ -1,5 +1,5 @@
 ---
-title: Was wir anbieten
+title: Beratung
 sections:
   - type: section_features
     section_id: intro
@@ -30,7 +30,7 @@ sections:
             url: /features
 menu:
   main:
-    name: Was wir anbieten
+    name: Unsere Beratung
     weight: 1
 layout: landing
 ---

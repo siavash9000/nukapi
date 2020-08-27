@@ -1,5 +1,4 @@
 ---
-title: Was wir machen
 sections:
   - type: section_hero
     section_id: hero
@@ -52,9 +51,5 @@ sections:
     section_id: recent-posts
     title: Latest Posts
     bg: gray
-menu:
-  main:
-    name: Was wir machen
-    weight: 1
 layout: landing
 ---
