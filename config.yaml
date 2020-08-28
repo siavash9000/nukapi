@@ -1,4 +1,5 @@
 title: nukapi
+baseURL: /
 params:
   palette: blue
   header:
