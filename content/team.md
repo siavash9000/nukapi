@@ -1,5 +1,5 @@
 ---
-title: Wer wir sind
+title: Team
 sections:
   - type: section_content
     section_id: Wer wir sind
@@ -35,7 +35,7 @@ sections:
         url: '#'
 menu:
   main:
-    name: Wer wir sind
+    name: Team
     weight: 3
 layout: landing
 ---

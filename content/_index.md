@@ -27,29 +27,5 @@ sections:
         actions:
           - label: Link zu famousfaces
             url: /features
-  - type: section_reviews
-    section_id: reviews
-    title: Testimonials
-    subtitle: "Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. "
-    bg: white
-    reviews:
-      - author: John Doe
-        avatar: images/review1.jpg
-        content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-          non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/review2.jpg
-        content: Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Richard Roe
-        avatar: images/review3.jpg
-        content: Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: section_posts
-    section_id: recent-posts
-    title: Latest Posts
-    bg: gray
 layout: landing
 ---

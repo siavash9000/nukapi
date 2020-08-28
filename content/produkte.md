@@ -14,7 +14,7 @@ sections:
         url: "#"
 menu:
   main:
-    name: Unsere Produkte
+    name: Produkte
     weight: 3
 layout: landing
 ---

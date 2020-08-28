@@ -30,7 +30,7 @@ sections:
             url: /features
 menu:
   main:
-    name: Unsere Beratung
+    name: Beratung
     weight: 1
 layout: landing
 ---
