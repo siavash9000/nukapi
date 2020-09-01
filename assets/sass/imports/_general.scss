@@ -3,7 +3,6 @@
  * ----------------------------------------------------------------------------
  */
 html {
-
   font-size: 112.5%;
   height: 100%;
   min-height: 100%;
@@ -22,8 +21,8 @@ a {
   border-bottom: 1px solid currentColor;
   color: _palette(primary);
   text-decoration: none;
-  -webkit-transition: border-color .15s ease-in-out, color .15s ease-in-out;
-  transition: border-color .15s ease-in-out, color .15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
 
   &:hover,
   &:focus {
@@ -50,7 +49,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.44444rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -195,19 +194,19 @@ label {
   font-weight: bold;
 }
 
-input[type=checkbox]+label,
-input[type=radio]+label {
+input[type='checkbox'] + label,
+input[type='radio'] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="search"],
-input[type="url"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='tel'],
+input[type='search'],
+input[type='url'],
 select,
 textarea {
   background: #fff;
@@ -230,12 +229,12 @@ textarea {
   }
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="search"],
-input[type="url"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='tel'],
+input[type='search'],
+input[type='url'],
 select {
   height: 3em;
 }
@@ -245,9 +244,9 @@ textarea {
 }
 
 button,
-input[type="submit"],
-input[type="button"],
-input[type="reset"],
+input[type='submit'],
+input[type='button'],
+input[type='reset'],
 a.button {
   background: _palette(accent);
   border-radius: 3px;
@@ -259,8 +258,8 @@ a.button {
   height: 2.75em;
   line-height: 1.5;
   padding: 0.5em 30px;
-  -webkit-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
 
   &:hover,
   &:focus,
@@ -289,8 +288,8 @@ a.button.large {
 .button.secondary {
   background: transparent;
   color: _palette(accent);
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
   &:hover,
   &:focus,
@@ -304,10 +303,10 @@ a.button.large {
 .button.white {
   background: #fff;
   border-color: transparent;
-  box-shadow: 0 20px 30px 0 rgba(_palette(primary),.2);
+  box-shadow: 0 20px 30px 0 rgba(_palette(primary), 0.2);
   color: _palette(primary);
-  -webkit-transition: box-shadow .2s ease-in-out;
-  transition: box-shadow .2s ease-in-out;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
 
   &:hover,
   &:focus,
@@ -388,7 +387,7 @@ img {
   &:after {
     border-left: 68px solid _palette(accent);
     display: block;
-    content: "";
+    content: '';
     height: 2px;
     margin-top: 1rem;
   }
@@ -413,6 +412,6 @@ img {
 
 .post-content:before,
 .post-content:after {
-  content: "";
+  content: '';
   display: table;
 }

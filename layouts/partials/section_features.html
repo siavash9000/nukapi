@@ -1,7 +1,7 @@
 <section id="{{ .section.section_id }}" class="block features-block bg-{{ .section.bg }} outer">
   <div class="block-header inner-small">
     {{ if .section.title }}
-    <h2 class="block-title">{{ .section.title }}</h2>
+    <h1 class="block-title">{{ .section.title }}</h1>
     {{ end }}
     {{ if .section.subtitle }}
     <p class="block-subtitle">
@@ -20,7 +20,9 @@
         </div><!-- .block-preview -->
         {{ end }}
         <div class="cell block-content">
+          <h3 class="block-subtitle">{{ $feature.pretitle }}</h3>
           <h3 class="block-title">{{ $feature.title }}</h3>
+          <h4 class="block-subtitle">{{ $feature.subtitle }}</h4>
           <div class="block-copy">
             {{ partial "markdownify-block" $feature.content }}
           </div>
