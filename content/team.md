@@ -3,7 +3,7 @@ title: Team
 sections:
   - type: section_features
     section_id: team
-    title: Team
+    title: Das sind wir
     featureslist:
       - title: Siavash Sefid-Rodi
         subtitle: Softwareentwickler & CEO

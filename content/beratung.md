@@ -3,7 +3,6 @@ title: Beratung
 sections:
   - type: section_features
     section_id: intro
-    bg: white
     featureslist:
       - title: Wir entwickeln ihre Applikation!
         content: "Maßgeschneidert auf ihre Bedürfnisse und von vornherein in einer Cloud ihrer Wahl. Wir sind Spezialisten für hochverfügbare  und 
